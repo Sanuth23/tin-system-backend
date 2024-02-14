@@ -18,8 +18,12 @@ public class UserController {
         return service.createUser(user);
     }
 
-//    @GetMapping("/user/{}")
-//    String generateTin(){
-//
+    @GetMapping("/user/{id}")
+    String generateTin(@PathVariable Long id){
+        return service.generateTin(id);
+    }
+//    @GetMapping("/user")
+//    List<User> getUsers(){
+//        return service.getUsers();
 //    }
 }
