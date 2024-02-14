@@ -13,7 +13,7 @@ public class UserEntity {
     Long id;
     private String nameWithInitials;
     private String fullName;
-    private int NIC;
+    private String nic;
     private String birthday;
     private String birthCountry;
     private String gender;

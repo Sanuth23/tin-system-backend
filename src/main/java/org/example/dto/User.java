@@ -12,7 +12,7 @@ import lombok.ToString;
 public class User {
     private String nameWithInitials;
     private String fullName;
-    private int NIC;
+    private String nic;
     private String birthday;
     private String birthCountry;
     private String gender;
