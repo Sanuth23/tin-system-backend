@@ -22,8 +22,5 @@ public class UserController {
     String generateTin(@PathVariable Long id){
         return service.generateTin(id);
     }
-//    @GetMapping("/user")
-//    List<User> getUsers(){
-//        return service.getUsers();
-//    }
+
 }
